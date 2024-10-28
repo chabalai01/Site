@@ -1,0 +1,170 @@
+
+@media screen and (max-width: 1147px){
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    } 
+
+    header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 942px){
+    
+    /* responsivo da Hero */
+    .hero-site .txt-hero h1{
+        font-size: 1em;
+        line-height: 40px;
+        
+    }
+    
+    .hero-site .txt-hero p{
+        font-size: 13px;
+    }
+    
+    .hero-site .txt-hero p span{
+        display: inline;
+    }
+    
+    .hero-site button{
+        font-size: 18px;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    /* Responsivo das Vantagens */
+
+    .vantagens .itens-container{
+        flex-direction: column;
+    }
+
+    .vantagens .itens-container .img-itens img{
+        width: 100%;
+    }
+
+    .vantagens .itens-container .txt-itens p{
+        margin-bottom: 20px;
+    }
+
+    .vantagens .itens-container .item-1{
+        order: 1;
+    }
+
+    .vantagens .itens-container .item-2{
+        order: 2;
+    }
+
+    /* Responsivo dos botoes de contato */
+    .txt-contato, .icons-contato{
+        display: block;
+        width: 100%;
+    }
+
+    .contato .txt-contato h3{
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    .contato .txt-contato p{
+        margin-bottom: 20px;
+    }
+
+    .contato .icons-contato button{
+        width: 100%;
+    }
+
+    /*Estilo da sessão parceiros  */
+
+    .parceiros h3{
+        font-size: 2.3em;
+        line-height: 40px; 
+    }
+
+    .parceiros p{
+        margin: 16px 0;
+        font-size: 20px;
+    }
+
+    
+    /* Estilo da sessão Parceiros-pricipais */
+
+    .txt-principais, .instrucoes{
+        display: block;
+        width: 100%;
+    }
+
+    .Parceiros-pricipais .txt-principais{
+        position:static;
+    }
+
+    .Parceiros-pricipais .txt-principais h3{
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    .instrucoes .instru-box{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Sobre {
+        flex-direction: column; 
+      }
+    
+      .image-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    
+      .image-content img {
+        max-width: 100%; 
+      }
+    }
+    
+    /* Estilo do rodapé */
+    footer{
+      background-color: #000;
+      text-align: center;
+      width: 100%;
+      padding: 30px 0;
+    }
+  
+    footer .top-footer button{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      background-color: transparent;
+      color: #fff;
+      font-size: 24px;
+      cursor: pointer;
+      margin: 0 10px;
+      transition: 0.5s;
+    }
+  
+    footer .top-footer button:hover{
+      background-color: #fff;
+      color: #000;
+    }
+  
+  
+    footer .middle-footer{
+      margin: 20px 0;
+    }
+  
+    footer .middle-footer a{
+      color: #fff;
+      margin: 0 15px;
+    }
+  
+    footer .bottom-footer{
+      border-top: 2px solid #fff;
+    }
+  
+    footer .bottom-footer p{
+      color: #fff;
+      margin-top: 10px;
+    }
+
+
